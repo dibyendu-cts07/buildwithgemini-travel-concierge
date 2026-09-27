@@ -12,9 +12,9 @@ load_dotenv()
 
 
 
-# Hardcoded project ID as required for Agent Platform compatibility
-FIRESTORE_PROJECT = "qwiklabs-gcp-02-bc2b4d729077"
-BUCKET_NAME = "travel-concierge-media-qwiklabs-gcp-02-bc2b4d729077"
+# Configurable project ID and media bucket name
+FIRESTORE_PROJECT = os.getenv("FIRESTORE_PROJECT", "qwiklabs-gcp-02-bc2b4d729077")
+BUCKET_NAME = os.getenv("MEDIA_BUCKET_NAME", "travel-concierge-media-qwiklabs-gcp-02-bc2b4d729077")
 
 
 def get_firestore_client() -> firestore.Client:
