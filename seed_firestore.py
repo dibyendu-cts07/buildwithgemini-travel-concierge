@@ -51,6 +51,50 @@ def seed_destinations():
             "rating": 4.6,
             "best_season": "September - November",
             "top_attractions": ["Golden Gate Bridge", "Alcatraz Island", "Fisherman's Wharf", "Golden Gate Park"]
+        },
+        {
+            "id": "agra-india",
+            "name": "Agra (Taj Mahal)",
+            "country": "India",
+            "category": "Heritage & Wonders",
+            "description": "Home to the magnificent Taj Mahal, one of the Seven Wonders of the World, along with historic Mughal forts.",
+            "price_level": "$$",
+            "rating": 4.9,
+            "best_season": "October - March",
+            "top_attractions": ["Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Mehtab Bagh"]
+        },
+        {
+            "id": "jaipur-india",
+            "name": "Jaipur (Pink City)",
+            "country": "India",
+            "category": "Heritage & Palaces",
+            "description": "The vibrant capital of Rajasthan known as the Pink City, famous for grand royal palaces and majestic hill forts.",
+            "price_level": "$$",
+            "rating": 4.8,
+            "best_season": "October - March",
+            "top_attractions": ["Hawa Mahal", "Amber Fort", "City Palace", "Jantar Mantar"]
+        },
+        {
+            "id": "varanasi-india",
+            "name": "Varanasi",
+            "country": "India",
+            "category": "Spiritual & Culture",
+            "description": "One of the world's oldest continually inhabited cities, renowned for sacred ghats along the holy Ganges River.",
+            "price_level": "$",
+            "rating": 4.7,
+            "best_season": "November - February",
+            "top_attractions": ["Dashashwamedh Ghat", "Kashi Vishwanath Temple", "Sarnath", "Ganga Aarti"]
+        },
+        {
+            "id": "goa-india",
+            "name": "Goa",
+            "country": "India",
+            "category": "Beaches & Relaxation",
+            "description": "Famous for tropical palm-fringed beaches, historic Portuguese architecture, and vibrant coastal culture.",
+            "price_level": "$$",
+            "rating": 4.7,
+            "best_season": "November - February",
+            "top_attractions": ["Baga Beach", "Basilica of Bom Jesus", "Dudhsagar Falls", "Fort Aguada"]
         }
     ]
 
